@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Load Image</title>
+    <link rel="stylesheet" href="../include/style.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    
+    <script>
+    window.onload = function () {
+      var canvas = document.getElementById('canvas'),
+          context = canvas.getContext('2d'),
+          image = new Image();
+
+      image.src = "./assets/picture.jpg";
+      image.onload = function() {
+        context.drawImage(image, 0, 0);
+      };
+    };
+    </script>
+    <span class="bottom_left">
+     <a href="javascript:javascript:history.go(-1)" class="center"><img src="../include/home.png" style="width: 55px" class="center" title="Return to animation menu"></a>
+     <span class="center">
+      <a href="javascript:javascript:history.go(-1)" class="center" style="color: blue">Return to Animation Menu</a>
+     </span>
+    </span>
+  </body>
+</html>
