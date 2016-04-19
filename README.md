@@ -10,3 +10,5 @@ consider buying the book.
 
 The latest version of this code can be found at
 https://github.com/lamberta/html5-animation
+
+<img src='http://s25.postimg.org/a6as39ru7/source_viewer.png' border='0' alt="source viewer" />
